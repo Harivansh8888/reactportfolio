@@ -1,0 +1,205 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar { 
+  display: none; /* Hiding Scrollbar for Chrome, Safari and Opera */
+}
+body {
+  -ms-overflow-style: none; /* Hiding Scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hiding Scrollbar for Firefox */
+}
+
+section {
+  height: 100vh;
+}
+
+body {
+  background-color: #162447;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Landing Page CSS Starts */
+.namesection {
+  position: relative;
+}
+
+.mynamediv {
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.arrowimg {
+  width: 25px;
+  height: 25px;
+}
+/* Landing Page CSS Ends */
+
+/* About Page CSS Starts */
+.aboutsection {
+  position: relative;
+  
+}
+
+.aboutheadingdiv {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.contentdiv {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 50%; 
+}
+
+.myphoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+/* About Page CSS Ends */
+
+.skillsdiv {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.allskills {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  
+}
+
+.allskillsfirst {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding-top: 120px;
+}
+
+.paracontent {
+  line-height: 2rem;
+}
+
+.skillsection {
+  position: relative;
+}
+
+
+.skillheading {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+
+
+
+
+p {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+span {
+  color: #e43f5a;
+}
+
+.projectsection {
+  position: relative;
+}
+
+.prodiv {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 50%;
+}
+
+.prodivheading {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.projectdiv {
+  align-items: center;
+  border: 6px #e43f5a solid;
+  border-radius: 25px;
+  margin: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.contactsection {
+  position: relative;
+  height: 100vh;
+}
+
+.contactdivheading {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.contactdiv {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 50%;
+}
+
+.socialicons {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.si {
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .contentdiv {
+    min-width: 86%;
+  }
+
+  .projectdiv {
+    width: 280px;
+    height: 120px;
+    line-height: 2rem;
+  }
+}
