@@ -15,11 +15,15 @@ section {
 }
 
 body {
-  background-color: #162447;
+  background-color: #000000;
   color: white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Itim', cursive;
   padding: 0;
   margin: 0;
+}
+
+.name {
+  font-family: 'Bungee Shade', cursive;
 }
 
 /* Landing Page CSS Starts */
@@ -39,6 +43,7 @@ body {
 .arrowimg {
   width: 25px;
   height: 25px;
+  
 }
 /* Landing Page CSS Ends */
 
@@ -66,14 +71,15 @@ body {
 .myphoto {
   width: 200px;
   height: 200px;
-  border-radius: 25px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px #cbff00;
 }
 
 /* About Page CSS Ends */
 
 .skillsdiv {
-  width: 150px;
-  height: 150px;
+  width: 9rem;
+  height: 9rem;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -82,7 +88,6 @@ body {
   display: flex;
   justify-content: center;
   margin: 30px;
-  
 }
 
 .allskillsfirst {
@@ -116,14 +121,15 @@ p {
   font-size: 20px;
 }
 
+
 .name {
   font-size: 50px;
 }
 
 span {
-  color: #e43f5a;
+  color: #cbff00;
 }
-
+/* */
 .projectsection {
   position: relative;
 }
@@ -145,7 +151,7 @@ span {
 
 .projectdiv {
   align-items: center;
-  border: 6px #e43f5a solid;
+  border: 3px #cbff00 dashed;
   border-radius: 25px;
   margin: 30px;
   padding-left: 20px;
@@ -171,6 +177,11 @@ span {
   transform: translateX(-50%) translateY(-50%);
   left: 50%;
   top: 50%;
+}
+
+.singlecontactdiv {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .socialicons {

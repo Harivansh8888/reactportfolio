@@ -16,28 +16,28 @@ class MyProjects extends React.Component {
                     <a href="https://hm-weather.netlify.app/">
                     <Slide left>
                     <div className="projectdiv">
-                        <h3>A Web application made using React and OpenWeatherMap API</h3>
+                        <p className="prop">A Web application made using React and OpenWeatherMap API</p>
                     </div>
                     </Slide>
                     </a>
                     <a href="https://github.com/Harivansh8888/TwitterBot">
                     <Slide right>
                     <div className="projectdiv">
-                        <h3>A Bot written in Python using Tweepy API for retweeting and liking tweets</h3>
+                        <p className="prop">A Bot written in Python using Tweepy API which like/retweet tweets</p>
                     </div>
                     </Slide>
                     </a>
                     <a href="https://github.com/Harivansh8888/Voice-Assistant">
                     <Slide left>
                     <div className="projectdiv">
-                        <h3>An Assistant made using Python, Google Speech Recognition and TTS API</h3>
+                        <p className="prop">An Assistant made using Python, Google SR and TTS API</p>
                     </div>
                     </Slide>
                     </a>
                     <a href="https://github.com/Harivansh8888/real-time-face-detection">
                     <Slide right>
                     <div className="projectdiv">
-                        <h3>Made using OpenCV library in Python which can detect faces and smiles</h3>
+                        <p className="prop">Made using OpenCV library in Python which can detect faces and smiles</p>
                     </div>
                     </Slide>
                     </a>

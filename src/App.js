@@ -6,7 +6,7 @@ import About from '../src/About';
 import Skill from '../src/Skills';
 import MyProjects from '../src/Projects';
 import ContactMe from '../src/Contact';
-import { LoopCircleLoading } from 'react-loadingg';
+import { WaveLoading } from 'react-loadingg';
 
 
 
@@ -37,7 +37,7 @@ class App extends React.Component {
   render() {
     const {loading} = this.state;
     return (
-      loading ? (<LoopCircleLoading color="#e43f5a" size="large"/>)
+      loading ? (<WaveLoading color="#cbff00" size="large"/>)
       :(<div className="content">
           <MyName />
           <About />

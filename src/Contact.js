@@ -6,6 +6,7 @@ import mail from '../src/assets/email.png';
 import instagram from '../src/assets/instagram.png';
 import linkedin from '../src/assets/linkedin.png';
 import Slide from 'react-reveal';
+import { SocialIcon } from 'react-social-icons';
 
 class ContactMe extends React.Component {
     render() {
@@ -15,36 +16,41 @@ class ContactMe extends React.Component {
                 <h1>Contact Me</h1>
                 </div>
                 <div className="contactdiv">
-                    <a href="https://twitter.com/Harivansh811">
+                    <div className="singlecontactdiv">
                     <Slide left>
-                        <img className="socialicons" src={twitter} alt="twitter logo" title="Twitter"/>
+                        <SocialIcon url="https://twitter.com/Harivansh811" network="twitter" bgColor="#cbff00" />
                     </Slide>
-                    </a>
-                    <a href="mailto:mathurharivansh811@gmail.com">
+                    </div>
+                    
+                    <div className="singlecontactdiv">
                     <Slide right>
-                        <img className="socialicons" src={mail} alt="mail logo" title="E-Mail"/>
+                        <SocialIcon url="mailto:mathurharivansh811@gmail.com" network="email" bgColor="#cbff00" />
                     </Slide>
-                    </a>
-                    <a href="https://www.linkedin.com/in/harivansh-mathur-a01736175/">
+                    </div>
+                    
+                    <div className="singlecontactdiv">
                     <Slide left>
-                        <img className="socialicons" src={linkedin} alt="linkedin logo" title="LinkedIn"  />
+                        <SocialIcon url="https://www.linkedin.com/in/harivansh-mathur-a01736175/" network="linkedin" bgColor="#cbff00" />
                     </Slide>
-                    </a>
-                    <a href="https://github.com/Harivansh8888">
+                    </div>
+                    
+                    <div className="singlecontactdiv">
                     <Slide right>
-                        <img className="socialicons" src={github} alt="github logo" title="GitHub"/>
+                        <SocialIcon url="https://github.com/Harivansh8888" network="github" bgColor="#cbff00" />
                     </Slide>
-                    </a>
-                    <a href="https://www.facebook.com/harivanshmathur.811">
+                    </div>
+                    
+                    <div className="singlecontactdiv">
                     <Slide left>
-                        <img className="socialicons" src={facebook} alt="facebook logo" title="Facebook"/>
+                        <SocialIcon url="https://www.facebook.com/harivanshmathur.811" network="facebook" bgColor="#cbff00" />
                     </Slide>
-                    </a>
-                    <a href="https://www.instagram.com/thisisharivansh/">
+                    </div>
+                    
+                    <div className="singlecontactdiv">
                     <Slide right>
-                        <img className="socialicons" src={instagram} alt="instagram logo" title="Instagram"/>
+                        <SocialIcon url="https://www.instagram.com/thisisharivansh/" network="instagram" bgColor="#cbff00" />
                     </Slide>
-                    </a>
+                    </div>
                 </div>
             </section>
         );

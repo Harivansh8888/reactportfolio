@@ -7,7 +7,7 @@ class MyName extends React.Component {
         return (
             <section className="namesection">
             <div className="mynamediv">
-                <h1 className="name"><span>H</span>arivansh <span>M</span>athur</h1>
+                <h1 className="name"><span>HARIVANSH MATHUR</span></h1>
                 <a href="#about">
                 <Slide top>
                     <img className="arrowimg" src={arrow} alt="arrow icon"/>

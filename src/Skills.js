@@ -28,7 +28,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -56,7 +56,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -84,7 +84,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -112,7 +112,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -144,7 +144,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -172,7 +172,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -200,7 +200,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -228,7 +228,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -260,7 +260,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -288,7 +288,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -316,7 +316,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
@@ -344,7 +344,7 @@ class Skill extends React.Component {
                   strokeWidth={4}
                   styles={{
                     path: {
-                      stroke: '#e43f5a',
+                      stroke: '#cbff00',
                       strokeLinecap: 'butt',
                     },
                     trail: {
